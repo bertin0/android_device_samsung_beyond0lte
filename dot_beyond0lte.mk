@@ -28,6 +28,7 @@ $(call inherit-product, device/samsung/beyond0lte/device.mk)
 TARGET_BOOTANIMATION_HALF_RES := true
 TARGET_SCREEN_HEIGHT := 2280
 TARGET_SCREEN_WIDTH := 1080
+TARGET_BOOT_ANIMATION_RES := 1080
 
 ## Inherit some common stuff.mk
 $(call inherit-product, vendor/dot/config/common.mk)
